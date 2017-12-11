@@ -1,0 +1,23 @@
+{
+  "name": "mvpapi",
+  "version": "1.0.0",
+  "description": "Find the closest dollar pizza place (NYC only)",
+  "engines": {
+    "node": "8.9.x",
+    "npm": "5.5.x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "seamus martin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "firebase": "^4.8.0"
+  }
+}
