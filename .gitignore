@@ -1,2 +1,3 @@
 node_modules
-keys
+# When deploying to heroku, make sure that keys are not ignored, but node_modules are. 
+# keys
