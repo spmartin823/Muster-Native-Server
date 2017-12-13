@@ -11,7 +11,7 @@ exports.signupWithEmail = function(req, res) {
   let username = req.body.username
   let password = req.body.password
 
-  firebase.auth().createUserdWithEmailAndPassword(username, password)
+  firebase.auth().createUserWithEmailAndPassword(username, password)
     .then(() => res.send({currentUser : firebase.auth().currentUser}))
     .catch(error => res.send({error : error.toString()}))
 }; 
